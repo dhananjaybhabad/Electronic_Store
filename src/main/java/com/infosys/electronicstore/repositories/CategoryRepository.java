@@ -1,0 +1,1 @@
+package com.infosys.electronicstore.repositories;public class CategoryRepository {}
