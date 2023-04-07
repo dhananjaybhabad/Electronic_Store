@@ -1,0 +1,1 @@
+package com.infosys.electronicstore.dtos;import lombok.*;import org.springframework.http.HttpStatus;@Setter@Getter@AllArgsConstructor@NoArgsConstructor@Builderpublic class ImageResponse {    public String imageName;    public String message;    public boolean success;    public HttpStatus status;}
