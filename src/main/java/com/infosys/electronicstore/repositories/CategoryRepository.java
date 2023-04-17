@@ -1,1 +1,1 @@
-package com.infosys.electronicstore.repositories;public class CategoryRepository {}
+package com.infosys.electronicstore.repositories;public interface CategoryRepository {}
