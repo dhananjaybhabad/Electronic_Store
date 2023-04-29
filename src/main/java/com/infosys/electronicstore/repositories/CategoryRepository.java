@@ -1,1 +1,1 @@
-package com.infosys.electronicstore.repositories;public interface CategoryRepository {}
+package com.infosys.electronicstore.repositories;import com.infosys.electronicstore.entities.Category;import org.springframework.data.jpa.repository.JpaRepository;import java.util.List;public interface CategoryRepository extends JpaRepository<Category,Long> {    List<Category> findAByTitleContaining(String keyword);}
