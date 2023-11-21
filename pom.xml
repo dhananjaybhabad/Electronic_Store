@@ -11,6 +11,8 @@
 	<groupId>com.infosys.electronicstore</groupId>
 	<artifactId>Electronic_Store</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+        <packaging>war</packaging>
+
 	<name>Electronic_Store</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
